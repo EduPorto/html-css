@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*configurações globais*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #f7e5e5, #f2949481);
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*height: 100%;*/
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(185, 132, 132, 0.726);
+}
+
+h1 {
+    text-align: center;
+    color: #db2a2a;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    font-family: 'Monoton', cursive;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-size: 2em;
+}
+
+h2 {
+    color: #F26363;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+    /*font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;*/
+    font: italic normal 0.8em Arial, Helvetica, sans-serif
+}
+
+
+/* Color Theme Swatches in Hex */
+.logotipo-rollformers-1-hex {
+    color: #F22E2E;
+}
+
+.logotipo-rollformers-2-hex {
+    color: #F26363;
+}
+
+.logotipo-rollformers-3-hex {
+    color: #F29494;
+}
+
+.logotipo-rollformers-4-hex {
+    color: #F2F2F2;
+}
+
+.logotipo-rollformers-5-hex {
+    color: #0D0D0D;
+}
+
+/* Color Theme Swatches in RGBA */
+.logotipo-rollformers-1-rgba {
+    color: rgba(242, 46, 46, 1);
+}
+
+.logotipo-rollformers-2-rgba {
+    color: rgba(242, 99, 99, 1);
+}
+
+.logotipo-rollformers-3-rgba {
+    color: rgba(242, 148, 148, 1);
+}
+
+.logotipo-rollformers-4-rgba {
+    color: rgba(242, 242, 242, 1);
+}
+
+.logotipo-rollformers-5-rgba {
+    color: rgba(13, 13, 13, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.logotipo-rollformers-1-hsla {
+    color: hsla(0, 88, 56, 1);
+}
+
+.logotipo-rollformers-2-hsla {
+    color: hsla(0, 84, 66, 1);
+}
+
+.logotipo-rollformers-3-hsla {
+    color: hsla(0, 78, 76, 1);
+}
+
+.logotipo-rollformers-4-hsla {
+    color: hsla(0, 0, 94, 1);
+}
+
+.logotipo-rollformers-5-hsla {
+    color: hsla(0, 0, 5, 1);
+}

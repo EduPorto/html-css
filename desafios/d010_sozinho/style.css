@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fontes/BebasNeue-Regular.ttf');
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+
+}
+
+* {
+    line-height: 1.2em;
+}
+
+body {
+    font-family: var(--fonte0);
+    background-color: var(--cor1);
+    /*color: var(--cor0);*/
+    margin: 0px;
+}
+
+#titulo_site {
+    font-family: var(--fonte1);
+}
+
+#titulo_site,
+header>p {
+    text-align: center;
+}
+
+header {
+    padding: 20px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, rgb(33, 185, 147), rgb(11, 116, 58));
+    color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.418);
+}
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(11, 116, 58);
+}
+
+nav>a {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    background-color: rgb(33, 163, 131);
+}
+
+main {
+    background-color: white;
+    margin: 1px auto 10px auto;
+    min-width: 400px;
+    max-width: 800px;
+    padding: 10px 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+main>p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+article>p,
+section>p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#titulo_artigo {
+    font-family: var(--fonte2);
+    color: rgb(11, 116, 58);
+    font-size: 2em;
+}
+
+h2 {
+    font-family: var(--fonte2);
+    color: rgb(11, 116, 58);
+    background-image: linear-gradient(to right, rgb(162, 252, 240), white);
+    padding-left: 5px;
+}
+
+
+img {
+    margin: auto;
+    display: block;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+#extra {
+    background-color: rgb(162, 252, 240);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.13);
+}
+
+#extra>article {
+    padding: 0px 10px 10px 10px;
+}
+
+#titulo_mais {
+    text-indent: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(33, 185, 147);
+    background-image: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: rgb(11, 116, 58);
+    color: white;
+}
+
+footer>p {
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
