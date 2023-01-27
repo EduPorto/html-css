@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+        }
+
+        td,
+        th {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: center;
+        }
+        col.vermelho{
+            background-color: red;
+            color: white;
+        }
+
+        col.amarelo{
+            background-color: yellow;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Exerício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Celia</td>
+                <td>Feminio</td>
+                <td>48</td>
+                <td>Auxiliar de Escritório</td>
+            </tr>
+            <tr>
+                <td>Celia</td>
+                <td>Feminio</td>
+                <td>48</td>
+                <td>Auxiliar de Escritório</td>
+            </tr>
+            <tr>
+                <td>Celia</td>
+                <td>Feminio</td>
+                <td>48</td>
+                <td>Auxiliar de Escritório</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
